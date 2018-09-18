@@ -11,7 +11,7 @@ test:
  overrides: 
   - docker-compose run dockerapp python test.py
 
-deploymet: 
+deployment: 
  hub:
   branch: [circle_ci_publish, master]
   commands: 
